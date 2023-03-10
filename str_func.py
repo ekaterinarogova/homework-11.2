@@ -3,6 +3,6 @@ def capital_letters(text: str) -> str:
     return text.upper()
 
 
-def headwords(text: str) -> str:
+def head_words(text: str) -> str:
     """Делает заглавными первые буквы каждого слова"""
     return text.title()
